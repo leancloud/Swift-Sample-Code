@@ -22,6 +22,7 @@
 		6A6CA7D41D227CF200996251 /* LCObject#batchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7D31D227CF200996251 /* LCObject#batchOperation.swift */; };
 		6A6CA7D61D2286BF00996251 /* LCObject#delete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7D51D2286BF00996251 /* LCObject#delete.swift */; };
 		6A6CA7D81D2359DC00996251 /* LCObject#deleteByCQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7D71D2359DC00996251 /* LCObject#deleteByCQL.swift */; };
+		6A6CA7DB1D23731800996251 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6A6CA7DA1D23731800996251 /* .travis.yml */; };
 		6A8EC8571D1A660A003CCA71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8EC8561D1A660A003CCA71 /* AppDelegate.swift */; };
 		6A8EC8591D1A660A003CCA71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8EC8581D1A660A003CCA71 /* ViewController.swift */; };
 		6A8EC85C1D1A660A003CCA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC85A1D1A660A003CCA71 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		6A6CA7D31D227CF200996251 /* LCObject#batchOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#batchOperation.swift"; sourceTree = "<group>"; };
 		6A6CA7D51D2286BF00996251 /* LCObject#delete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#delete.swift"; sourceTree = "<group>"; };
 		6A6CA7D71D2359DC00996251 /* LCObject#deleteByCQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#deleteByCQL.swift"; sourceTree = "<group>"; };
+		6A6CA7DA1D23731800996251 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		6A8EC8531D1A660A003CCA71 /* Swift-Sample-Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Sample-Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8EC8561D1A660A003CCA71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A8EC8581D1A660A003CCA71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		6A8EC84A1D1A660A003CCA71 = {
 			isa = PBXGroup;
 			children = (
+				6A6CA7DA1D23731800996251 /* .travis.yml */,
 				6A8EC8551D1A660A003CCA71 /* Swift-Sample-Code */,
 				6A8EC86A1D1A660B003CCA71 /* Swift-Sample-CodeTests */,
 				6A8EC8541D1A660A003CCA71 /* Products */,
@@ -275,6 +278,7 @@
 			files = (
 				6A8EC8611D1A660A003CCA71 /* LaunchScreen.storyboard in Resources */,
 				6A8EC85E1D1A660A003CCA71 /* Assets.xcassets in Resources */,
+				6A6CA7DB1D23731800996251 /* .travis.yml in Resources */,
 				6A8EC85C1D1A660A003CCA71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
