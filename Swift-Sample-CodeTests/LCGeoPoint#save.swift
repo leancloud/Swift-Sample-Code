@@ -21,7 +21,6 @@ class LCGeoPoint_save: BaseTestCase {
                 exception.fulfill()
             }
         }
-
     }
     
 }
