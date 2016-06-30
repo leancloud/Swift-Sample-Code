@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme_^#shared#^_</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>LeanCloud.xcscheme_^#shared#^_</key>
+		<key>LeanCloud.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Swift-Sample-Code.xcscheme_^#shared#^_</key>
+		<key>Pods-Swift-Sample-Code.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Swift-Sample-CodeTests.xcscheme_^#shared#^_</key>
+		<key>Pods-Swift-Sample-CodeTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -4,22 +4,22 @@ PODS:
     - Alamofire (~> 3.4)
 
 DEPENDENCIES:
-  - LeanCloud (from `git@github.com:leancloud/swift-sdk.git`, tag `0.0.1.alpha.2`)
+  - LeanCloud (from `git@github.com:leancloud/swift-sdk.git`, tag `0.0.1.alpha.3`)
 
 EXTERNAL SOURCES:
   LeanCloud:
     :git: git@github.com:leancloud/swift-sdk.git
-    :tag: 0.0.1.alpha.2
+    :tag: 0.0.1.alpha.3
 
 CHECKOUT OPTIONS:
   LeanCloud:
     :git: git@github.com:leancloud/swift-sdk.git
-    :tag: 0.0.1.alpha.2
+    :tag: 0.0.1.alpha.3
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   LeanCloud: fe0590c3b42ac00dd01702d43a77be841249d20b
 
-PODFILE CHECKSUM: 110cc71d6cf9255570fd5c93aec8ca614db3468e
+PODFILE CHECKSUM: 082921f45fbdc0a992df9cfdb07d8fe27bfa3801
 
 COCOAPODS: 1.0.1

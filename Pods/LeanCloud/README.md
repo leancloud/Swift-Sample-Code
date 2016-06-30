@@ -1,5 +1,8 @@
 # LeanCloud Swift SDK
 
+[![Build Status](https://travis-ci.org/leancloud/swift-sdk.svg?branch=master)](https://travis-ci.org/leancloud/swift-sdk)
+[![Coverage Status](https://coveralls.io/repos/github/leancloud/swift-sdk/badge.svg?branch=master)](https://coveralls.io/github/leancloud/swift-sdk?branch=master)
+
 ## Features
   * [x] Data Storage
   * [x] Object Query
