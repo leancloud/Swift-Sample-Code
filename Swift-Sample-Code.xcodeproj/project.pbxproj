@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6A0D545C1D1A7ED100A6C0C3 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0D545B1D1A7ED100A6C0C3 /* BaseTestCase.swift */; };
+		6A5BFEE11D24CC2F00AB537D /* LCObject#serialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BFEE01D24CC2F00AB537D /* LCObject#serialize.swift */; };
+		6A5BFEE31D24CEA700AB537D /* Query#containsIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BFEE21D24CEA700AB537D /* Query#containsIn.swift */; };
+		6A5BFEE61D24DB5500AB537D /* LCUser#signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5BFEE51D24DB5500AB537D /* LCUser#signUp.swift */; };
 		6A6CA7BE1D2248A300996251 /* LCObject#fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7BD1D2248A300996251 /* LCObject#fetch.swift */; };
 		6A6CA7C01D22497B00996251 /* LCObject#saveByCQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7BF1D22497B00996251 /* LCObject#saveByCQL.swift */; };
 		6A6CA7C21D224A0000996251 /* LCObject#saveWithProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6CA7C11D224A0000996251 /* LCObject#saveWithProperties.swift */; };
@@ -32,6 +35,7 @@
 		6AB594901D24AB5C00A8EC8B /* getByObjectId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5948F1D24AB5C00A8EC8B /* getByObjectId.swift */; };
 		6AB594921D24B7BB00A8EC8B /* Pointer#save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB594911D24B7BB00A8EC8B /* Pointer#save.swift */; };
 		6AB594941D24C23100A8EC8B /* DataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB594931D24C23100A8EC8B /* DataProtocol.swift */; };
+		6AB594961D24C61600A8EC8B /* LCGeoPoint#save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB594951D24C61600A8EC8B /* LCGeoPoint#save.swift */; };
 		A6241D9329404E06036EFC45 /* Pods_Swift_Sample_Code.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3329F482B05340F0F77985 /* Pods_Swift_Sample_Code.framework */; };
 		E813DD47447D29B7AE727331 /* Pods_Swift_Sample_CodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080FE77591B77E4B27F94FC5 /* Pods_Swift_Sample_CodeTests.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +56,9 @@
 		2E625B3F7DA1EA45B76A2BB1 /* Pods-Swift-Sample-CodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Sample-CodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Sample-CodeTests/Pods-Swift-Sample-CodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4F3D2F76596EF68DAE4667D1 /* Pods-Swift-Sample-Code.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Sample-Code.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Sample-Code/Pods-Swift-Sample-Code.release.xcconfig"; sourceTree = "<group>"; };
 		6A0D545B1D1A7ED100A6C0C3 /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		6A5BFEE01D24CC2F00AB537D /* LCObject#serialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#serialize.swift"; sourceTree = "<group>"; };
+		6A5BFEE21D24CEA700AB537D /* Query#containsIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Query#containsIn.swift"; sourceTree = "<group>"; };
+		6A5BFEE51D24DB5500AB537D /* LCUser#signUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCUser#signUp.swift"; sourceTree = "<group>"; };
 		6A6CA7BD1D2248A300996251 /* LCObject#fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#fetch.swift"; sourceTree = "<group>"; };
 		6A6CA7BF1D22497B00996251 /* LCObject#saveByCQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#saveByCQL.swift"; sourceTree = "<group>"; };
 		6A6CA7C11D224A0000996251 /* LCObject#saveWithProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCObject#saveWithProperties.swift"; sourceTree = "<group>"; };
@@ -80,6 +87,7 @@
 		6AB5948F1D24AB5C00A8EC8B /* getByObjectId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getByObjectId.swift; sourceTree = "<group>"; };
 		6AB594911D24B7BB00A8EC8B /* Pointer#save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pointer#save.swift"; sourceTree = "<group>"; };
 		6AB594931D24C23100A8EC8B /* DataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProtocol.swift; sourceTree = "<group>"; };
+		6AB594951D24C61600A8EC8B /* LCGeoPoint#save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCGeoPoint#save.swift"; sourceTree = "<group>"; };
 		B92224FB44D77C66ABD13ABC /* Pods-Swift-Sample-CodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-Sample-CodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-Sample-CodeTests/Pods-Swift-Sample-CodeTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA3329F482B05340F0F77985 /* Pods_Swift_Sample_Code.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Sample_Code.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +121,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6A5BFEE41D24DB2C00AB537D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				6A5BFEE51D24DB5500AB537D /* LCUser#signUp.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		6A6CA7BC1D22486000996251 /* Object */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +147,8 @@
 				6A6CA7D51D2286BF00996251 /* LCObject#delete.swift */,
 				6A6CA7D71D2359DC00996251 /* LCObject#deleteByCQL.swift */,
 				6AB594931D24C23100A8EC8B /* DataProtocol.swift */,
+				6AB594951D24C61600A8EC8B /* LCGeoPoint#save.swift */,
+				6A5BFEE01D24CC2F00AB537D /* LCObject#serialize.swift */,
 			);
 			name = Object;
 			sourceTree = "<group>";
@@ -181,6 +199,7 @@
 		6A8EC86A1D1A660B003CCA71 /* Swift-Sample-CodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				6A5BFEE41D24DB2C00AB537D /* User */,
 				6AB5948E1D24AB4300A8EC8B /* Query */,
 				6A6CA7D91D2367F900996251 /* Relation */,
 				6A6CA7BC1D22486000996251 /* Object */,
@@ -194,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				6AB5948F1D24AB5C00A8EC8B /* getByObjectId.swift */,
+				6A5BFEE21D24CEA700AB537D /* Query#containsIn.swift */,
 			);
 			name = Query;
 			sourceTree = "<group>";
@@ -422,10 +442,13 @@
 				6AB594901D24AB5C00A8EC8B /* getByObjectId.swift in Sources */,
 				6A6CA7D61D2286BF00996251 /* LCObject#delete.swift in Sources */,
 				6A6CA7D41D227CF200996251 /* LCObject#batchOperation.swift in Sources */,
+				6A5BFEE61D24DB5500AB537D /* LCUser#signUp.swift in Sources */,
 				6A6CA7C41D224AC500996251 /* LCObject#saveTodoFolderWithPriority.swift in Sources */,
 				6A0D545C1D1A7ED100A6C0C3 /* BaseTestCase.swift in Sources */,
 				6A6CA7BE1D2248A300996251 /* LCObject#fetch.swift in Sources */,
+				6A5BFEE31D24CEA700AB537D /* Query#containsIn.swift in Sources */,
 				6A6CA7C21D224A0000996251 /* LCObject#saveWithProperties.swift in Sources */,
+				6AB594961D24C61600A8EC8B /* LCGeoPoint#save.swift in Sources */,
 				6A6CA7D21D22755100996251 /* LCObject#setArray.swift in Sources */,
 				6AB594921D24B7BB00A8EC8B /* Pointer#save.swift in Sources */,
 				6A6CA7D81D2359DC00996251 /* LCObject#deleteByCQL.swift in Sources */,
@@ -434,6 +457,7 @@
 				6A6CA7CA1D225C8D00996251 /* LCObject#accessTodoFolderProperties.swift in Sources */,
 				6A6CA7D01D2268F200996251 /* LCObject#atomicOprationIncrement.swift in Sources */,
 				6A6CA7CE1D22660200996251 /* LCObject#updateByCQL.swift in Sources */,
+				6A5BFEE11D24CC2F00AB537D /* LCObject#serialize.swift in Sources */,
 				6A6CA7C01D22497B00996251 /* LCObject#saveByCQL.swift in Sources */,
 				6AB594941D24C23100A8EC8B /* DataProtocol.swift in Sources */,
 				6A6CA7C61D224D8E00996251 /* LCObject#saveTodoWithLoaction.swift in Sources */,

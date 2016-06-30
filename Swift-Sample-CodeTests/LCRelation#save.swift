@@ -11,7 +11,6 @@ import LeanCloud
 
 class LCRelation_save: BaseTestCase {
     
-    
     func testSaveRelation() {
         // 以下代码需要同步执行
         // 新建一个 TodoFolder 对象
@@ -45,9 +44,5 @@ class LCRelation_save: BaseTestCase {
         todoFolder.insertRelation("containedTodos", object: todo3)
         
         todoFolder.save()
-        
-        // 保存完毕之后，读取 LCRelation 对象
-        let relation : LCRelation = todoFolder.get("containedTodos")
-        
     }
 }

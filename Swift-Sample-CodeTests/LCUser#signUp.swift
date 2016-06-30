@@ -1,5 +1,5 @@
 //
-//  DataProtocol.swift
+//  LCUser#signUp.swift
 //  Swift-Sample-Code
 //
 //  Created by WuJun on 6/30/16.
@@ -9,9 +9,5 @@
 import XCTest
 import LeanCloud
 
-class DataProtocol: BaseTestCase {
-
-    func testDataProtocol() {
-        
-    }
+class LCUser_signUp: BaseTestCase {
 }
