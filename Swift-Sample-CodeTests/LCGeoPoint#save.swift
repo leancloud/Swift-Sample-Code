@@ -15,7 +15,7 @@ class LCGeoPoint_save: BaseTestCase {
         await("LCGeoPoint save") { (exception) in
             let leancloudOffice  = LCGeoPoint(latitude: 39.9, longitude: 116.4)
             let todo = LCObject(className: "Todo")
-            todo.set("whereCreated", object: todo)
+            todo.set("whereCreated", object: leancloudOffice)
             todo.save {(savedResult) in
                 XCTAssertTrue(savedResult.isSuccess)
                 exception.fulfill()

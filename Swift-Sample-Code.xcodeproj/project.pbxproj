@@ -31,6 +31,7 @@
 		6A8EC85C1D1A660A003CCA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC85A1D1A660A003CCA71 /* Main.storyboard */; };
 		6A8EC85E1D1A660A003CCA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC85D1D1A660A003CCA71 /* Assets.xcassets */; };
 		6A8EC8611D1A660A003CCA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8EC85F1D1A660A003CCA71 /* LaunchScreen.storyboard */; };
+		6AAD12231D24EBB600C8B158 /* LCUser#logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAD12221D24EBB600C8B158 /* LCUser#logIn.swift */; };
 		6AB5948D1D24A6CB00A8EC8B /* LCRelation#save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5948C1D24A6CB00A8EC8B /* LCRelation#save.swift */; };
 		6AB594901D24AB5C00A8EC8B /* getByObjectId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5948F1D24AB5C00A8EC8B /* getByObjectId.swift */; };
 		6AB594921D24B7BB00A8EC8B /* Pointer#save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB594911D24B7BB00A8EC8B /* Pointer#save.swift */; };
@@ -83,6 +84,7 @@
 		6A8EC8621D1A660A003CCA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8EC8671D1A660B003CCA71 /* Swift-Sample-CodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Sample-CodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8EC86D1D1A660B003CCA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAD12221D24EBB600C8B158 /* LCUser#logIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCUser#logIn.swift"; sourceTree = "<group>"; };
 		6AB5948C1D24A6CB00A8EC8B /* LCRelation#save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LCRelation#save.swift"; sourceTree = "<group>"; };
 		6AB5948F1D24AB5C00A8EC8B /* getByObjectId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getByObjectId.swift; sourceTree = "<group>"; };
 		6AB594911D24B7BB00A8EC8B /* Pointer#save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pointer#save.swift"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				6A5BFEE51D24DB5500AB537D /* LCUser#signUp.swift */,
+				6AAD12221D24EBB600C8B158 /* LCUser#logIn.swift */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 				6A6CA7C41D224AC500996251 /* LCObject#saveTodoFolderWithPriority.swift in Sources */,
 				6A0D545C1D1A7ED100A6C0C3 /* BaseTestCase.swift in Sources */,
 				6A6CA7BE1D2248A300996251 /* LCObject#fetch.swift in Sources */,
+				6AAD12231D24EBB600C8B158 /* LCUser#logIn.swift in Sources */,
 				6A5BFEE31D24CEA700AB537D /* Query#containsIn.swift in Sources */,
 				6A6CA7C21D224A0000996251 /* LCObject#saveWithProperties.swift in Sources */,
 				6AB594961D24C61600A8EC8B /* LCGeoPoint#save.swift in Sources */,

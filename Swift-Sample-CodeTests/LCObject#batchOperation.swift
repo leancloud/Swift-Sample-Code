@@ -20,6 +20,7 @@ class LCObject_batchOperation: BaseTestCase {
             
             let todo3 = LCObject(className:"Todo")
             todo3.set("title", object: "参加线下活动")
+            exception.fulfill()
         }
     }
     

@@ -51,5 +51,98 @@
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swift-Sample-CodeTests/LCUser#logIn.swift"
+            timestampString = "488959544.663169"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "LCUser_logIn"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Sample_CodeTests.LCUser_logIn.testUser.getter : LeanCloud.LCUser"
+                  moduleName = "Swift-Sample-CodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/data/Code/Swift-Sample-Code/Swift-Sample-CodeTests/LCUser%23logIn.swift"
+                  timestampString = "488959546.538149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Sample_CodeTests.LCUser_logIn.testUser.setter : LeanCloud.LCUser"
+                  moduleName = "Swift-Sample-CodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/data/Code/Swift-Sample-Code/Swift-Sample-CodeTests/LCUser%23logIn.swift"
+                  timestampString = "488959546.539624"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Sample_CodeTests.LCUser_logIn.init (invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; Swift_Sample_CodeTests.LCUser_logIn"
+                  moduleName = "Swift-Sample-CodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/data/Code/Swift-Sample-Code/Swift-Sample-CodeTests/LCUser%23logIn.swift"
+                  timestampString = "488959546.540227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Sample_CodeTests.LCUser_logIn.init (selector : ObjectiveC.Selector) -&gt; Swift_Sample_CodeTests.LCUser_logIn"
+                  moduleName = "Swift-Sample-CodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/data/Code/Swift-Sample-Code/Swift-Sample-CodeTests/LCUser%23logIn.swift"
+                  timestampString = "488959546.540623"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift_Sample_CodeTests.LCUser_logIn.init () -&gt; Swift_Sample_CodeTests.LCUser_logIn"
+                  moduleName = "Swift-Sample-CodeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/data/Code/Swift-Sample-Code/Swift-Sample-CodeTests/LCUser%23logIn.swift"
+                  timestampString = "488959546.540994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
